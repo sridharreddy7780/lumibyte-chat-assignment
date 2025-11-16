@@ -16,7 +16,15 @@ const {
 } = require('./mockData');
 
 const app = express();
-app.use(cors());
+
+app.use(
+  cors({
+    origin: '*', // allow all origins (localhost:3000, Vercel, etc.)
+    methods: ['GET', 'POST', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type'],
+  })
+);
+app.options('*', cors());
 app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 4000;
