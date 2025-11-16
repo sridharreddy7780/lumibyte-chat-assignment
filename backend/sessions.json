@@ -966,5 +966,42 @@
     "title": "Session 67e8c0ab",
     "createdAt": "2025-11-16T07:41:32.594Z",
     "history": []
+  },
+  "b519f7c2-291d-4632-ac7e-7c4254fa17e9": {
+    "id": "b519f7c2-291d-4632-ac7e-7c4254fa17e9",
+    "title": "hi",
+    "createdAt": "2025-11-16T10:40:03.914Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "hi",
+        "timestamp": "2025-11-16T10:40:07.477Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"hi\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "274",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "8060",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T10:40:07.481Z",
+        "feedback": null
+      }
+    ]
   }
 }
