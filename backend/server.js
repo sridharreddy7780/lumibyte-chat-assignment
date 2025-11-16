@@ -1,6 +1,3 @@
-// backend/server.js
-// Express server that exposes mock ChatGPT-style APIs.
-
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -17,14 +14,16 @@ const {
 
 const app = express();
 
+// CORS
 app.use(
   cors({
-    origin: '*', // allow all origins (localhost:3000, Vercel, etc.)
+    origin: '*', // allow all origins (localhost, Vercel, etc.)
     methods: ['GET', 'POST', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type'],
   })
 );
-app.options('*', cors());
+
+// Body parser
 app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 4000;
@@ -43,6 +42,7 @@ app.get('/api/sessions', (req, res) => {
     }));
     res.json(sessions);
   } catch (err) {
+    console.error('Error in GET /api/sessions:', err);
     res.status(500).json({ error: 'Failed to fetch sessions' });
   }
 });
@@ -56,6 +56,7 @@ app.delete('/api/sessions', (req, res) => {
     resetAllSessions();
     res.json({ ok: true });
   } catch (err) {
+    console.error('Error in DELETE /api/sessions:', err);
     res.status(500).json({ error: 'Failed to reset sessions' });
   }
 });
@@ -69,6 +70,7 @@ app.get('/api/new-chat', (req, res) => {
     const session = createNewSession();
     res.json({ id: session.id, title: session.title });
   } catch (err) {
+    console.error('Error in GET /api/new-chat:', err);
     res.status(500).json({ error: 'Failed to create session' });
   }
 });
@@ -83,6 +85,7 @@ app.get('/api/session/:id', (req, res) => {
     if (!session) return res.status(404).json({ error: 'Session not found' });
     res.json(session);
   } catch (err) {
+    console.error('Error in GET /api/session/:id:', err);
     res.status(500).json({ error: 'Failed to fetch session' });
   }
 });
@@ -96,6 +99,7 @@ app.post('/api/chat/:id', (req, res) => {
   try {
     const sessionId = req.params.id;
     const { question } = req.body || {};
+
     if (!question || !question.toString().trim()) {
       return res.status(400).json({ error: 'Question is required' });
     }
@@ -146,6 +150,7 @@ app.post('/api/chat/:id', (req, res) => {
     const assistant = addAssistantMessage(sessionId, assistantText, table);
     return res.json(assistant);
   } catch (err) {
+    console.error('Error in POST /api/chat/:id:', err);
     res.status(500).json({ error: 'Failed to process chat' });
   }
 });
@@ -169,6 +174,7 @@ app.post('/api/feedback/:sessionId/:messageIndex', (req, res) => {
 
     const session = getSession(sessionId);
     if (!session) return res.status(404).json({ error: 'Session not found' });
+
     if (Number.isNaN(idx) || idx < 0 || idx >= session.history.length) {
       return res.status(400).json({ error: 'Invalid message index' });
     }
@@ -176,6 +182,7 @@ app.post('/api/feedback/:sessionId/:messageIndex', (req, res) => {
     session.history[idx].feedback = feedback;
     return res.json({ ok: true, historyItem: session.history[idx] });
   } catch (err) {
+    console.error('Error in POST /api/feedback/...:', err);
     res.status(500).json({ error: 'Failed to attach feedback' });
   }
 });
@@ -191,7 +198,7 @@ process.on('unhandledRejection', (reason, p) => {
   console.error('UNHANDLED REJECTION at promise', p, 'reason:', reason);
 });
 
-// Start server
+// Start server (Render-friendly)
 const HOST = process.env.HOST || '0.0.0.0';
 
 app.listen(PORT, HOST, () => {
