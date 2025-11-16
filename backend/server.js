@@ -184,10 +184,8 @@ process.on('unhandledRejection', (reason, p) => {
 });
 
 // Start server
-const HOST = process.env.HOST || '127.0.0.1';
+const HOST = process.env.HOST || '0.0.0.0';
+
 app.listen(PORT, HOST, () => {
-  const hostForLog = HOST === '0.0.0.0' ? 'localhost' : HOST;
-  console.log(
-    `Mock API server running on http://${hostForLog}:${PORT}`
-  );
+  console.log(`Mock API server running on port ${PORT}`);
 });
