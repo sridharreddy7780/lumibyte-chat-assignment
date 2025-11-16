@@ -1,0 +1,970 @@
+{
+  "9e18507f-4984-43b8-8c42-fd5662f2979f": {
+    "id": "9e18507f-4984-43b8-8c42-fd5662f2979f",
+    "title": "Session 9e18507f",
+    "createdAt": "2025-11-15T16:55:14.239Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "Seed: show sample sales",
+        "timestamp": "2025-11-15T16:55:14.241Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Seed answer",
+        "table": {
+          "columns": [
+            "Month",
+            "Sales"
+          ],
+          "rows": [
+            [
+              "Jan",
+              "1000"
+            ],
+            [
+              "Feb",
+              "1500"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-15T16:55:14.241Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "show sample sales",
+        "timestamp": "2025-11-15T18:40:31.658Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock monthly sales summary for your query: \"show sample sales\"",
+        "table": {
+          "columns": [
+            "Month",
+            "Revenue",
+            "Growth%"
+          ],
+          "rows": [
+            [
+              "Jan",
+              "12000",
+              "5%"
+            ],
+            [
+              "Feb",
+              "15000",
+              "25%"
+            ],
+            [
+              "Mar",
+              "18000",
+              "20%"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-15T18:40:31.659Z",
+        "feedback": null
+      }
+    ]
+  },
+  "dec0cf14-9d1e-42e0-983f-80d5f518074a": {
+    "id": "dec0cf14-9d1e-42e0-983f-80d5f518074a",
+    "title": "hlo",
+    "createdAt": "2025-11-15T18:36:45.629Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "hlo",
+        "timestamp": "2025-11-16T06:51:21.119Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"hlo\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "3859",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "9360",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:51:21.121Z",
+        "feedback": null
+      }
+    ]
+  },
+  "7826e213-f1f3-4faa-8bdf-cf947e2814d0": {
+    "id": "7826e213-f1f3-4faa-8bdf-cf947e2814d0",
+    "title": "jh",
+    "createdAt": "2025-11-15T18:36:45.814Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "jh",
+        "timestamp": "2025-11-16T06:51:16.005Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"jh\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "4603",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "5723",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:51:16.009Z",
+        "feedback": null
+      }
+    ]
+  },
+  "5d35c786-d51e-4acb-9fd7-2ab094666b85": {
+    "id": "5d35c786-d51e-4acb-9fd7-2ab094666b85",
+    "title": "Session 5d35c786",
+    "createdAt": "2025-11-15T18:39:50.834Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "Hlo",
+        "timestamp": "2025-11-15T18:42:40.077Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"Hlo\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "415",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "6359",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-15T18:42:40.079Z",
+        "feedback": null
+      }
+    ]
+  },
+  "3fc1bf03-c819-4788-ad4a-871883abb2c4": {
+    "id": "3fc1bf03-c819-4788-ad4a-871883abb2c4",
+    "title": "bnn",
+    "createdAt": "2025-11-15T18:42:21.774Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "bnn",
+        "timestamp": "2025-11-16T06:51:02.050Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"bnn\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "1748",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "3928",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:51:02.051Z",
+        "feedback": "like"
+      }
+    ]
+  },
+  "5e304c39-e434-4125-afad-8928c81c4dc5": {
+    "id": "5e304c39-e434-4125-afad-8928c81c4dc5",
+    "title": "Hi",
+    "createdAt": "2025-11-16T06:51:32.255Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "Hi",
+        "timestamp": "2025-11-16T06:51:41.167Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"Hi\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "9558",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "2228",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:51:41.172Z",
+        "feedback": null
+      }
+    ]
+  },
+  "a95e7223-9728-45ad-97ad-23f60e0eec31": {
+    "id": "a95e7223-9728-45ad-97ad-23f60e0eec31",
+    "title": "HI",
+    "createdAt": "2025-11-16T06:57:06.305Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "HI",
+        "timestamp": "2025-11-16T06:57:09.607Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"HI\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "6223",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "4934",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:09.610Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "Hlo",
+        "timestamp": "2025-11-16T06:57:12.515Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"Hlo\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "5155",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "8102",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:12.516Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "hjdskfhs",
+        "timestamp": "2025-11-16T06:57:15.034Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"hjdskfhs\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "2460",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "2068",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:15.035Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "sdjbskjdh",
+        "timestamp": "2025-11-16T06:57:16.528Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"sdjbskjdh\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "9660",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "8479",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:16.529Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "dskjfhskjdjf",
+        "timestamp": "2025-11-16T06:57:17.587Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"dskjfhskjdjf\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "5173",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "4501",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:17.588Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "sjfbvksjfn",
+        "timestamp": "2025-11-16T06:57:18.682Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"sjfbvksjfn\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "7363",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "8918",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:18.684Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "sfbskjbf",
+        "timestamp": "2025-11-16T06:57:19.768Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"sfbskjbf\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "9731",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "5238",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:19.769Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "fhbsf",
+        "timestamp": "2025-11-16T06:57:20.905Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"fhbsf\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "75",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "1496",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:20.906Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "bsbf",
+        "timestamp": "2025-11-16T06:57:22.087Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"bsbf\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "7766",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "138",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:22.089Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "j",
+        "timestamp": "2025-11-16T06:57:22.910Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"j\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "5700",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "3919",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:22.911Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "j",
+        "timestamp": "2025-11-16T06:57:24.102Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"j\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "9065",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "1730",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:24.103Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "h",
+        "timestamp": "2025-11-16T06:57:24.599Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"h\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "7049",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "7840",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T06:57:24.600Z",
+        "feedback": null
+      }
+    ]
+  },
+  "4024f5fa-2438-4164-b2a9-6bbd7a006dc6": {
+    "id": "4024f5fa-2438-4164-b2a9-6bbd7a006dc6",
+    "title": "dshf",
+    "createdAt": "2025-11-16T06:58:20.167Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "dshf",
+        "timestamp": "2025-11-16T07:00:39.418Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"dshf\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "3252",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "5646",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T07:00:39.420Z",
+        "feedback": null
+      }
+    ]
+  },
+  "d6a11203-fb18-43bb-acb1-776e3a8abdb9": {
+    "id": "d6a11203-fb18-43bb-acb1-776e3a8abdb9",
+    "title": "hlo",
+    "createdAt": "2025-11-16T07:01:44.571Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "hlo",
+        "timestamp": "2025-11-16T07:01:48.685Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"hlo\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "5207",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "8874",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T07:01:48.688Z",
+        "feedback": null
+      }
+    ]
+  },
+  "d31b5c61-f905-499b-b57a-bd381a7949d4": {
+    "id": "d31b5c61-f905-499b-b57a-bd381a7949d4",
+    "title": "Session d31b5c61",
+    "createdAt": "2025-11-16T07:04:50.337Z",
+    "history": []
+  },
+  "40d75e01-4fc7-451a-8e04-a1cf03b6e768": {
+    "id": "40d75e01-4fc7-451a-8e04-a1cf03b6e768",
+    "title": "Session 40d75e01",
+    "createdAt": "2025-11-16T07:04:55.988Z",
+    "history": []
+  },
+  "be5b2255-bc2f-45b1-be74-838b27dd455f": {
+    "id": "be5b2255-bc2f-45b1-be74-838b27dd455f",
+    "title": "Session be5b2255",
+    "createdAt": "2025-11-16T07:04:56.936Z",
+    "history": []
+  },
+  "4a130e14-15b0-4146-b430-45ddcbc433ac": {
+    "id": "4a130e14-15b0-4146-b430-45ddcbc433ac",
+    "title": "Session 4a130e14",
+    "createdAt": "2025-11-16T07:04:57.620Z",
+    "history": []
+  },
+  "5acffb22-3c9c-430e-8b4e-133edef12984": {
+    "id": "5acffb22-3c9c-430e-8b4e-133edef12984",
+    "title": "Session 5acffb22",
+    "createdAt": "2025-11-16T07:04:57.813Z",
+    "history": []
+  },
+  "76ac1468-0d31-433e-bdc1-d986c5a2cb8b": {
+    "id": "76ac1468-0d31-433e-bdc1-d986c5a2cb8b",
+    "title": "Session 76ac1468",
+    "createdAt": "2025-11-16T07:04:57.992Z",
+    "history": []
+  },
+  "101ecfa5-04f6-4b0d-a079-4e08def36861": {
+    "id": "101ecfa5-04f6-4b0d-a079-4e08def36861",
+    "title": "Session 101ecfa5",
+    "createdAt": "2025-11-16T07:04:58.146Z",
+    "history": []
+  },
+  "7707620c-94fa-4a3e-91d9-a0fb7005af5c": {
+    "id": "7707620c-94fa-4a3e-91d9-a0fb7005af5c",
+    "title": "Session 7707620c",
+    "createdAt": "2025-11-16T07:04:58.316Z",
+    "history": []
+  },
+  "03e7842b-adf3-4765-87b9-2075f1d41760": {
+    "id": "03e7842b-adf3-4765-87b9-2075f1d41760",
+    "title": "Session 03e7842b",
+    "createdAt": "2025-11-16T07:04:58.508Z",
+    "history": []
+  },
+  "825d7cb2-1ce6-4f8e-8ae1-9d67c75c0605": {
+    "id": "825d7cb2-1ce6-4f8e-8ae1-9d67c75c0605",
+    "title": "Session 825d7cb2",
+    "createdAt": "2025-11-16T07:04:58.677Z",
+    "history": []
+  },
+  "3c320900-6824-49d3-93e9-0467ba04f300": {
+    "id": "3c320900-6824-49d3-93e9-0467ba04f300",
+    "title": "Session 3c320900",
+    "createdAt": "2025-11-16T07:04:58.846Z",
+    "history": []
+  },
+  "5bcffe7b-c421-4667-9f22-093ec19aa5f5": {
+    "id": "5bcffe7b-c421-4667-9f22-093ec19aa5f5",
+    "title": "Session 5bcffe7b",
+    "createdAt": "2025-11-16T07:04:59.016Z",
+    "history": []
+  },
+  "dfd621a6-5b03-4b93-9e41-3659299ada2a": {
+    "id": "dfd621a6-5b03-4b93-9e41-3659299ada2a",
+    "title": "Session dfd621a6",
+    "createdAt": "2025-11-16T07:04:59.173Z",
+    "history": []
+  },
+  "49821925-22a4-4215-bf7e-afc601dbaf2e": {
+    "id": "49821925-22a4-4215-bf7e-afc601dbaf2e",
+    "title": "Session 49821925",
+    "createdAt": "2025-11-16T07:04:59.348Z",
+    "history": []
+  },
+  "fee78805-0e6e-4a81-8264-1d5e7907e1d1": {
+    "id": "fee78805-0e6e-4a81-8264-1d5e7907e1d1",
+    "title": "Session fee78805",
+    "createdAt": "2025-11-16T07:04:59.554Z",
+    "history": []
+  },
+  "f7ed4e29-8b2a-43a2-8e8e-780fc9553687": {
+    "id": "f7ed4e29-8b2a-43a2-8e8e-780fc9553687",
+    "title": "Session f7ed4e29",
+    "createdAt": "2025-11-16T07:04:59.788Z",
+    "history": []
+  },
+  "b28de0d5-7382-486c-a05d-fd896b949fec": {
+    "id": "b28de0d5-7382-486c-a05d-fd896b949fec",
+    "title": "hlo",
+    "createdAt": "2025-11-16T07:04:59.999Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "hlo",
+        "timestamp": "2025-11-16T07:05:26.031Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"hlo\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "2615",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "5360",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T07:05:26.035Z",
+        "feedback": null
+      }
+    ]
+  },
+  "eed70e65-9079-411e-b6e5-5dfd15e69f89": {
+    "id": "eed70e65-9079-411e-b6e5-5dfd15e69f89",
+    "title": "Session eed70e65",
+    "createdAt": "2025-11-16T07:19:21.859Z",
+    "history": []
+  },
+  "95fae0b6-6adb-4b73-b86d-feafdef84d28": {
+    "id": "95fae0b6-6adb-4b73-b86d-feafdef84d28",
+    "title": "Session 95fae0b6",
+    "createdAt": "2025-11-16T07:20:58.529Z",
+    "history": []
+  },
+  "5f305e3c-daf6-4622-855f-28e1a7a5f37b": {
+    "id": "5f305e3c-daf6-4622-855f-28e1a7a5f37b",
+    "title": "Session 5f305e3c",
+    "createdAt": "2025-11-16T07:21:18.317Z",
+    "history": []
+  },
+  "2ec411a7-736c-40b1-a9cd-24f3484caf02": {
+    "id": "2ec411a7-736c-40b1-a9cd-24f3484caf02",
+    "title": "Session 2ec411a7",
+    "createdAt": "2025-11-16T07:21:28.467Z",
+    "history": []
+  },
+  "59469ee7-28d5-424d-8c64-b4d19532c909": {
+    "id": "59469ee7-28d5-424d-8c64-b4d19532c909",
+    "title": "Session 59469ee7",
+    "createdAt": "2025-11-16T07:25:21.865Z",
+    "history": []
+  },
+  "db12812e-9835-4414-977d-992998ae0f97": {
+    "id": "db12812e-9835-4414-977d-992998ae0f97",
+    "title": "hi",
+    "createdAt": "2025-11-16T07:28:05.989Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "hi",
+        "timestamp": "2025-11-16T07:28:09.059Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"hi\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "5544",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "9692",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T07:28:09.061Z",
+        "feedback": null
+      },
+      {
+        "role": "user",
+        "text": "hi",
+        "timestamp": "2025-11-16T07:28:33.117Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"hi\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "3435",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "8823",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T07:28:33.118Z",
+        "feedback": null
+      }
+    ]
+  },
+  "8a14986a-f421-4e4e-8b2c-17a0fd05b3c5": {
+    "id": "8a14986a-f421-4e4e-8b2c-17a0fd05b3c5",
+    "title": "hi",
+    "createdAt": "2025-11-16T07:32:23.727Z",
+    "history": [
+      {
+        "role": "user",
+        "text": "hi",
+        "timestamp": "2025-11-16T07:32:28.664Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Mock answer for: \"hi\". (Default structured response)",
+        "table": {
+          "columns": [
+            "Item",
+            "Value",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metric A",
+              "9385",
+              "auto-generated"
+            ],
+            [
+              "Metric B",
+              "7738",
+              "auto-generated"
+            ]
+          ]
+        },
+        "timestamp": "2025-11-16T07:32:28.666Z",
+        "feedback": null
+      }
+    ]
+  },
+  "67e8c0ab-2d3c-4a41-8891-c776e9ce9e7e": {
+    "id": "67e8c0ab-2d3c-4a41-8891-c776e9ce9e7e",
+    "title": "Session 67e8c0ab",
+    "createdAt": "2025-11-16T07:41:32.594Z",
+    "history": []
+  }
+}
